@@ -2,7 +2,7 @@ const e = React.createElement;
 
     function Square (props) {
         return (
-           <button className="squere" onClick = { () => props.onClick} >
+           <button className="square" onClick = { () => props.onClick} >
             {props.value}
            </button>
        );
